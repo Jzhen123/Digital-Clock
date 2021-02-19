@@ -46,3 +46,26 @@ h1{
     transform: translate(-50%, -50%);
     font-size: 60px;
 }
+
+.twelveBtn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 25px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.twentyfourBtn{
+    border: 0;
+    background: rgba(150,150,150,0.6);
+    text-shadow: 1px 1px 1px white;
+    border: 1px solid #999;
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    left: 2px;
+}
