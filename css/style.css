@@ -1,16 +1,28 @@
 /* CSS */
-
-
-.box {
-display: contents;
-border: 1px solid red;
-background-color: lightgrey;
-padding: 10px;
-width: 200px;
+body {
+    background-color: white;
 }
 
+.watchContainer{
+    position: relative;
+}
+
+  
 .clock {
-    border: 1px solid blue;
-    background-color: lightblue;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    
+}
+
+#appleWatch {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }

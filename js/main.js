@@ -1,3 +1,4 @@
+var actualClock = document.querySelector('.clock')
 
 setInterval(digitalClock, 100);
 
@@ -16,7 +17,7 @@ function digitalClock(){
         }
     
     
-    clock.innerHTML = hours + ':' + minutes + ':' + seconds + dayOrNight;
+    actualClock.innerHTML = hours + ':' + minutes + ':' + seconds + dayOrNight; //Displays the time in a simple format 00:00:00
 }
 
 digitalClock();
