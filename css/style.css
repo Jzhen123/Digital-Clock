@@ -1,6 +1,5 @@
 /* CSS */
 
-
 .box {
 display: contents;
 border: 1px solid red;
@@ -10,7 +9,7 @@ width: 200px;
 }
 
 .clock {
-    border: 1px solid blue;
+    border: 5px solid blue;
     background-color: lightblue;
     padding: 10px;
 }
