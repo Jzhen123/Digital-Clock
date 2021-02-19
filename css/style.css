@@ -35,3 +35,14 @@ h1{
     margin-right: auto;
     width: 40%;
 }
+
+.date {
+    color: rgb(248, 93, 93);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
