@@ -3,17 +3,18 @@ const twentyfourBtn = document.querySelector('.twentyfourBtn');
 
 
 
-
-
-
-
-
-
-
 var currentDate = document.querySelector('.date');
 var actualClock = document.querySelector('.clock');
 
 setInterval(digitalClock, 100);
+
+
+twelveBtn.onclick = function regularTime() { 
+    if (hours > 12) {
+        let tempHours = hours;
+        hours = 24 - tempHours;
+    }
+}
 
 function digitalClock(){
 
@@ -30,12 +31,7 @@ function digitalClock(){
          } else if (hours >= 12){
         dayOrNight = 'PM'
         }
-twelveBtn.onclick = function regularTime() {
-    if (hours > 12) {
-        let tempHours = hours;
-        hours = 24 - tempHours;
-    }
-}
+
         
     
  currentDate.innerHTML = month + '/' + day + '/' + year;
