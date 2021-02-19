@@ -58,6 +58,7 @@ h1{
     transform: translate(-50%, -50%);
     cursor: pointer;
     border-radius: 50%;
+    font-size: 15px;
 }
 
 .twentyfourBtn{
@@ -71,4 +72,5 @@ h1{
     transform: translate(-50%, -50%);
     cursor: pointer;
     border-radius: 50%;
+    font-size: 15px;
 }
